@@ -1,0 +1,90 @@
+/* --- Estilos Gerais --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #000000;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* --- Cabeçalho --- */
+header {
+    background-color: #ba0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+header strong {
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+/* --- Títulos Secundários --- */
+h1, h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(135, 0, 0, 0.904);
+}
+
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+
+p:last-of-type { /* Seleciona o último parágrafo, que contém a redação */
+    background-color: #f9f9f9;
+    border-left: 5px solid #ff0d00a4; /* Uma cor verde para destacar a nota máxima */
+    padding: 15px;
+    border-radius: 0 4px 4px 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+p:last-of-type br {
+    margin-bottom: 1em; 
+}
